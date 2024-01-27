@@ -1,0 +1,32 @@
+[
+  {
+    "model": "main.student",
+    "pk": 8,
+    "fields": {
+      "first_name": "Мария",
+      "last_name": "Петрова",
+      "avatar": "",
+      "is_activate": true
+    }
+  },
+  {
+    "model": "main.student",
+    "pk": 9,
+    "fields": {
+      "first_name": "Петр",
+      "last_name": "Смирнов",
+      "avatar": "",
+      "is_activate": true
+    }
+  },
+  {
+    "model": "main.student",
+    "pk": 10,
+    "fields": {
+      "first_name": "Harry",
+      "last_name": "Potter",
+      "avatar": "",
+      "is_activate": false
+    }
+  }
+]
