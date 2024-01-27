@@ -7,6 +7,8 @@ class Student(models.Model):
     last_name = models.CharField(max_length=150, verbose_name="Фамилия")
     avatar = models.ImageField(upload_to='students/', verbose_name="аватар", null=True, blank=True)
 
+    email = models.CharField(max_length=150, verbose_name='email', unique=True, null=True, blank=True)
+
     is_activate = models.BooleanField(default=True, verbose_name='учится')
 
 
