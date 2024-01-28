@@ -1,7 +1,7 @@
 from django.forms import inlineformset_factory
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
-from django.views.generic import ListView, CreateView, UpdateView
+from django.views.generic import ListView, CreateView, UpdateView, DetailView
 
 from main.forms import StudentForm, SubjectForm
 from main.models import Student, Subject
@@ -34,13 +34,14 @@ def contact(request):
 
     return render(request, 'main/contact.html', context)
 
-
-def view_student(request, pk):
-    student_item = get_object_or_404(Student, id=pk)
-    context = {
-        'object': student_item
-    }
-    return render(request, 'main/student_detail.html', context)
+class StudentDetailView(DetailView):
+    model = Student
+# def view_student(request, pk):
+#     student_item = get_object_or_404(Student, id=pk)
+#     context = {
+#         'object': student_item
+#     }
+#     return render(request, 'main/student_detail.html', context)
 
 
 class StudentCreateView(CreateView):
