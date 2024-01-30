@@ -47,8 +47,8 @@
     "model": "main.student",
     "pk": 19,
     "fields": {
-      "first_name": "�����",
-      "last_name": "����������",
+      "first_name": "Мария",
+      "last_name": "форточкина",
       "avatar": "",
       "email": null,
       "is_activate": true
@@ -60,7 +60,7 @@
     "fields": {
       "first_name": "Test1",
       "last_name": "Testov",
-      "avatar": "students/���_�������.jpg",
+      "avatar": "students/для_профиля.jpg",
       "email": null,
       "is_activate": true
     }
@@ -69,8 +69,8 @@
     "model": "main.student",
     "pk": 21,
     "fields": {
-      "first_name": "����",
-      "last_name": "������",
+      "first_name": "Петр",
+      "last_name": "милков",
       "avatar": "",
       "email": null,
       "is_activate": true
@@ -80,8 +80,8 @@
     "model": "main.student",
     "pk": 22,
     "fields": {
-      "first_name": "����",
-      "last_name": "�������",
+      "first_name": "Петр",
+      "last_name": "Семенов",
       "avatar": "",
       "email": null,
       "is_activate": true
@@ -91,8 +91,8 @@
     "model": "main.student",
     "pk": 23,
     "fields": {
-      "first_name": "����",
-      "last_name": "������",
+      "first_name": "Петр",
+      "last_name": "Пупкин",
       "avatar": "",
       "email": null,
       "is_activate": true
@@ -102,9 +102,9 @@
     "model": "main.student",
     "pk": 24,
     "fields": {
-      "first_name": "�����",
-      "last_name": "��������",
-      "avatar": "students/�����.jpg",
+      "first_name": "Лиззи",
+      "last_name": "Магвауер",
+      "avatar": "students/лесси.jpg",
       "email": null,
       "is_activate": true
     }
@@ -113,9 +113,9 @@
     "model": "main.student",
     "pk": 25,
     "fields": {
-      "first_name": "����",
-      "last_name": "������",
-      "avatar": "students/����.jpg",
+      "first_name": "Рекс",
+      "last_name": "Герман",
+      "avatar": "students/рекс.jpg",
       "email": "1995@sky.pro",
       "is_activate": true
     }
